@@ -2,6 +2,180 @@
  "contentVersion": 2,
  "packs": [
   {
+   "id": "chakras-symbols",
+   "name": "Chakras & Symbols",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Chakra symbols in colour and white, with Om, Flower of Life and the Wireframe Head.",
+   "desc": "The seven chakra symbols in their colours and in white, plus three classic STiMUL-i images: Om, the Flower of Life and the Wireframe Head. A starting set for chakra, meditation and energy sessions.",
+   "bytes": 1072379,
+   "files": [
+    "packs/chakras-symbols.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 17
+   },
+   "albums": [
+    "Chakras",
+    "Chakras White"
+   ],
+   "audio": [],
+   "cover": "store/chakras-symbols-cover.webp",
+   "previews": [
+    "store/chakras-symbols-1.webp",
+    "store/chakras-symbols-2.webp",
+    "store/chakras-symbols-3.webp",
+    "store/chakras-symbols-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 16
+  },
+  {
+   "id": "statements",
+   "name": "Statements",
+   "tier": "free",
+   "kind": "text",
+   "blurb": "Ready-made affirmation sets: I AM, Love, Wealth and more.",
+   "desc": "Four ready-to-use sets of statements to flash, sequence or trigger: EXAMPLE (abundance, feeling, power and self-love), LOVE IS, WEALTH and WHO AM I (I AM statements). Use them as they are, or as a starting point for your own words.",
+   "bytes": 1959,
+   "files": [
+    "packs/statements.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "texts": 4
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/statements-cover.webp",
+   "previews": [],
+   "kindLabel": "Statements",
+   "slot": 17
+  },
+  {
+   "id": "love",
+   "name": "Love",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Warm photographs of love, connection and togetherness.",
+   "desc": "Photographs of love in many forms: hands joined, hearts, couples and friends against sunsets and the sea. Made for the LOVE IS statements and any session on love, connection and gratitude.",
+   "bytes": 3617421,
+   "files": [
+    "packs/love.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 54
+   },
+   "albums": [
+    "Love"
+   ],
+   "audio": [],
+   "cover": "store/love-cover.webp",
+   "previews": [
+    "store/love-1.webp",
+    "store/love-2.webp",
+    "store/love-3.webp",
+    "store/love-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 18
+  },
+  {
+   "id": "sanskrit-symbols",
+   "name": "Sanskrit Symbols",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "The Sanskrit letters of each chakra, and the six Bīja seed syllables.",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 246051,
+   "files": [
+    "packs/sanskrit-symbols.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 62
+   },
+   "albums": [
+    "Sanskrit · Root (Mūlādhāra)",
+    "Sanskrit · Sacral (Svādhiṣṭhāna)",
+    "Sanskrit · Solar Plexus (Maṇipūra)",
+    "Sanskrit · Heart (Anāhata)",
+    "Sanskrit · Throat (Viśuddha)",
+    "Sanskrit · Third Eye (Ājñā)",
+    "Sanskrit · Bīja mantras"
+   ],
+   "audio": [],
+   "cover": "store/sanskrit-symbols-cover.webp",
+   "previews": [
+    "store/sanskrit-symbols-1.webp",
+    "store/sanskrit-symbols-2.webp",
+    "store/sanskrit-symbols-3.webp",
+    "store/sanskrit-symbols-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 19
+  },
+  {
+   "id": "i-ching",
+   "name": "I Ching",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "All 64 hexagrams of the I Ching, each with its name.",
+   "desc": "The 64 hexagrams of the I Ching in white on black, from 1 · The Creative to 64 · Before Completion. Each shows its name when used, so they work as single symbols or as a full sequence.",
+   "bytes": 45969,
+   "files": [
+    "packs/i-ching.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 64
+   },
+   "albums": [
+    "I Ching · 64 hexagrams"
+   ],
+   "audio": [],
+   "cover": "store/i-ching-cover.webp",
+   "previews": [
+    "store/i-ching-1.webp",
+    "store/i-ching-2.webp",
+    "store/i-ching-3.webp",
+    "store/i-ching-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 20
+  },
+  {
+   "id": "bardon-alphabet",
+   "name": "Bardon Alphabet",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "The 27 letters of Franz Bardon’s Quabbalistic alphabet, in colour.",
+   "desc": "The letters of the Quabbalistic alphabet from Franz Bardon’s Key to the True Quabbalah, each in its own colour and named with its element. For letter, colour and sound work.",
+   "bytes": 214538,
+   "files": [
+    "packs/bardon-alphabet.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 27
+   },
+   "albums": [
+    "Quabbalistic alphabet · Bardon"
+   ],
+   "audio": [],
+   "cover": "store/bardon-alphabet-cover.webp",
+   "previews": [
+    "store/bardon-alphabet-1.webp",
+    "store/bardon-alphabet-2.webp",
+    "store/bardon-alphabet-3.webp",
+    "store/bardon-alphabet-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 21
+  },
+  {
    "id": "i-am-universe",
    "name": "I AM the Universe",
    "tier": "free",
@@ -302,7 +476,7 @@
    "kind": "video",
    "blurb": "Misty forest, a flight through the trees, and sunrise above the clouds.",
    "desc": "Three calm nature films in full HD: sunlight through a misty pine forest, a slow glide between the trees of a bright green wood, and a flight over the clouds at sunrise. Gentle, grounding backgrounds for relaxation, visualisation and nature-themed statements.",
-   "bytes": 14865520,
+   "bytes": 14866773,
    "files": [
     "packs/nature-journeys.zip"
    ],
@@ -329,7 +503,7 @@
    "kind": "video",
    "blurb": "Glowing tunnels of light that pull you forward.",
    "desc": "Three looping journeys through light: a golden glowing corridor, a dark tunnel streaked with neon, and a shimmering tunnel of coloured triangles. Strong forward motion for focus, energy and deep-dive sessions, and striking under words and geometry.",
-   "bytes": 16111601,
+   "bytes": 16112347,
    "files": [
     "packs/light-tunnels.zip"
    ],
