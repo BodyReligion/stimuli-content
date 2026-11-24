@@ -1,0 +1,619 @@
+{
+ "contentVersion": 2,
+ "packs": [
+  {
+   "id": "i-am-universe",
+   "name": "I AM the Universe",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Cosmic scenes of a lone figure before galaxies, fire and light.",
+   "desc": "Vast cosmic landscapes: a single figure stands before swirling galaxies, nebulae and beams of light. Made for I AM statements and manifestation sessions, where the words sit over a feeling of limitless space and possibility.",
+   "bytes": 6060178,
+   "files": [
+    "packs/i-am-universe.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 68
+   },
+   "albums": [
+    "I AM the Universe"
+   ],
+   "audio": [],
+   "cover": "store/i-am-universe-cover.webp",
+   "previews": [
+    "store/i-am-universe-1.webp",
+    "store/i-am-universe-2.webp",
+    "store/i-am-universe-3.webp",
+    "store/i-am-universe-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 6
+  },
+  {
+   "id": "visionary-eyes",
+   "name": "Visionary Eyes",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Wide-open eyes woven with light, colour and flowing energy.",
+   "desc": "Close-up faces with vivid blue eyes surrounded by streams of energy and colour. Strong focal points for gaze and attention work: the eyes hold the centre of the frame while words and flashes play over them.",
+   "bytes": 2039092,
+   "files": [
+    "packs/visionary-eyes.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 18
+   },
+   "albums": [
+    "Visionary Eyes"
+   ],
+   "audio": [],
+   "cover": "store/visionary-eyes-cover.webp",
+   "previews": [
+    "store/visionary-eyes-1.webp",
+    "store/visionary-eyes-2.webp",
+    "store/visionary-eyes-3.webp",
+    "store/visionary-eyes-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 7
+  },
+  {
+   "id": "sacred-beauty",
+   "name": "Sacred Beauty",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Divine feminine portraits crowned with feathers and jewels.",
+   "desc": "Portraits of the divine feminine in radiant feathered headdresses, jewels and face paint. Warm, powerful imagery for sessions on self-worth, beauty, confidence and grace.",
+   "bytes": 7919004,
+   "files": [
+    "packs/sacred-beauty.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 40
+   },
+   "albums": [
+    "Sacred Beauty"
+   ],
+   "audio": [],
+   "cover": "store/sacred-beauty-cover.webp",
+   "previews": [
+    "store/sacred-beauty-1.webp",
+    "store/sacred-beauty-2.webp",
+    "store/sacred-beauty-3.webp",
+    "store/sacred-beauty-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 8
+  },
+  {
+   "id": "sacred-warrior",
+   "name": "Sacred Warrior",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Warrior portraits in feathered headdresses and war paint.",
+   "desc": "Painted portraits of the sacred masculine: warriors in feathered headdresses, war paint and adornments. Grounded, steady imagery for strength, courage, discipline and focus.",
+   "bytes": 3347757,
+   "files": [
+    "packs/sacred-warrior.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 41
+   },
+   "albums": [
+    "Sacred Warrior"
+   ],
+   "audio": [],
+   "cover": "store/sacred-warrior-cover.webp",
+   "previews": [
+    "store/sacred-warrior-1.webp",
+    "store/sacred-warrior-2.webp",
+    "store/sacred-warrior-3.webp",
+    "store/sacred-warrior-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 9
+  },
+  {
+   "id": "spirit-animals",
+   "name": "Spirit Animals",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Bear, butterfly, eagle, lion and snake in mystical light.",
+   "desc": "Five spirit animals in glowing, mystical light: the bear for strength, the butterfly for change, the eagle for vision, the lion for courage and the snake for renewal. Use one animal for a theme, or the whole album as a sequence.",
+   "bytes": 3146064,
+   "files": [
+    "packs/spirit-animals.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 22
+   },
+   "albums": [
+    "Spirit Animals"
+   ],
+   "audio": [],
+   "cover": "store/spirit-animals-cover.webp",
+   "previews": [
+    "store/spirit-animals-1.webp",
+    "store/spirit-animals-2.webp",
+    "store/spirit-animals-3.webp",
+    "store/spirit-animals-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 10
+  },
+  {
+   "id": "buddha",
+   "name": "Buddha",
+   "tier": "free",
+   "kind": "album",
+   "blurb": "Serene Buddha statues, calm and centred.",
+   "desc": "Carved Buddha statues with closed eyes and a still, peaceful expression, on black. A calm centre for meditation, breathing and stillness sessions. Several are on a see-through background, so they sit cleanly over other layers.",
+   "bytes": 552039,
+   "files": [
+    "packs/buddha.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 17
+   },
+   "albums": [
+    "Buddha"
+   ],
+   "audio": [],
+   "cover": "store/buddha-cover.webp",
+   "previews": [
+    "store/buddha-1.webp",
+    "store/buddha-2.webp",
+    "store/buddha-3.webp",
+    "store/buddha-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 11
+  },
+  {
+   "id": "geometry-gold",
+   "name": "Sacred Geometry Gold",
+   "tier": "free",
+   "blurb": "71 gold sacred geometry frames.",
+   "bytes": 6474835,
+   "files": [
+    "packs/geometry-gold.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 71,
+    "sounds": 0
+   },
+   "albums": [
+    "Geometrics Gold"
+   ],
+   "audio": [],
+   "desc": "Gold line drawings of sacred geometry: Flower of Life, Metatron’s Cube, Sri Yantra, mandalas and more, on black. Clean shapes that layer well over images and video.",
+   "kind": "album",
+   "cover": "store/geometry-gold-cover.webp",
+   "previews": [
+    "store/geometry-gold-1.webp",
+    "store/geometry-gold-2.webp",
+    "store/geometry-gold-3.webp",
+    "store/geometry-gold-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 0
+  },
+  {
+   "id": "geometry-white",
+   "name": "Geometrics White",
+   "tier": "free",
+   "blurb": "72 white sacred geometry frames.",
+   "bytes": 3251903,
+   "files": [
+    "packs/geometry-white.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 72,
+    "sounds": 0
+   },
+   "albums": [
+    "Geometrics White"
+   ],
+   "audio": [],
+   "desc": "The sacred geometry set in white line: Flower of Life, Metatron’s Cube, Sri Yantra, mandalas and more, on black. Crisp over darker visuals.",
+   "kind": "album",
+   "cover": "store/geometry-white-cover.webp",
+   "previews": [
+    "store/geometry-white-1.webp",
+    "store/geometry-white-2.webp",
+    "store/geometry-white-3.webp",
+    "store/geometry-white-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 4
+  },
+  {
+   "id": "cymatics-gold",
+   "name": "Cymatics Gold",
+   "tier": "free",
+   "blurb": "48 gold cymatic patterns.",
+   "bytes": 6305987,
+   "files": [
+    "packs/cymatics-gold.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 48,
+    "sounds": 0
+   },
+   "albums": [
+    "Cymatics Gold"
+   ],
+   "audio": [],
+   "desc": "Cymatics: the patterns sound makes in water and sand, drawn in gold. Rich, symmetrical shapes that pair naturally with tones, binaural beats and music.",
+   "kind": "album",
+   "cover": "store/cymatics-gold-cover.webp",
+   "previews": [
+    "store/cymatics-gold-1.webp",
+    "store/cymatics-gold-2.webp",
+    "store/cymatics-gold-3.webp",
+    "store/cymatics-gold-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 3
+  },
+  {
+   "id": "cymatics-white",
+   "name": "Cymatics White",
+   "tier": "free",
+   "blurb": "48 white cymatic patterns.",
+   "bytes": 3594061,
+   "files": [
+    "packs/cymatics-white.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 48,
+    "sounds": 0
+   },
+   "albums": [
+    "Cymatics White"
+   ],
+   "audio": [],
+   "desc": "The cymatics set in white: the patterns sound makes in water and sand. Fine, symmetrical shapes for sound-led sessions.",
+   "kind": "album",
+   "cover": "store/cymatics-white-cover.webp",
+   "previews": [
+    "store/cymatics-white-1.webp",
+    "store/cymatics-white-2.webp",
+    "store/cymatics-white-3.webp",
+    "store/cymatics-white-4.webp"
+   ],
+   "kindLabel": "Images",
+   "slot": 1
+  },
+  {
+   "id": "nature-journeys",
+   "name": "Nature Journeys",
+   "tier": "free",
+   "kind": "video",
+   "blurb": "Misty forest, a flight through the trees, and sunrise above the clouds.",
+   "desc": "Three calm nature films in full HD: sunlight through a misty pine forest, a slow glide between the trees of a bright green wood, and a flight over the clouds at sunrise. Gentle, grounding backgrounds for relaxation, visualisation and nature-themed statements.",
+   "bytes": 14865520,
+   "files": [
+    "packs/nature-journeys.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 3
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/nature-journeys-cover.webp",
+   "previews": [
+    "store/nature-journeys-1.webp",
+    "store/nature-journeys-2.webp",
+    "store/nature-journeys-3.webp",
+    "store/nature-journeys-4.webp"
+   ],
+   "kindLabel": "Videos",
+   "slot": 14
+  },
+  {
+   "id": "light-tunnels",
+   "name": "Light Tunnels",
+   "tier": "free",
+   "kind": "video",
+   "blurb": "Glowing tunnels of light that pull you forward.",
+   "desc": "Three looping journeys through light: a golden glowing corridor, a dark tunnel streaked with neon, and a shimmering tunnel of coloured triangles. Strong forward motion for focus, energy and deep-dive sessions, and striking under words and geometry.",
+   "bytes": 16111601,
+   "files": [
+    "packs/light-tunnels.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 3
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/light-tunnels-cover.webp",
+   "previews": [
+    "store/light-tunnels-1.webp",
+    "store/light-tunnels-2.webp",
+    "store/light-tunnels-3.webp",
+    "store/light-tunnels-4.webp"
+   ],
+   "kindLabel": "Videos",
+   "slot": 15
+  },
+  {
+   "id": "hypnotic-tunnels",
+   "name": "Hypnotic Tunnels",
+   "tier": "free",
+   "kind": "video",
+   "blurb": "Black and white spiral and tunnel loops.",
+   "desc": "Two seamless black and white video loops: a turning spiral and a tunnel of rings drawing the eye inward. Classic focus and induction visuals that work well behind words and under other layers.",
+   "bytes": 1057801,
+   "files": [
+    "packs/hypnotic-tunnels.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 2
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/hypnotic-tunnels-cover.webp",
+   "previews": [
+    "store/hypnotic-tunnels-1.webp",
+    "store/hypnotic-tunnels-2.webp",
+    "store/hypnotic-tunnels-3.webp"
+   ],
+   "kindLabel": "Videos",
+   "slot": 12
+  },
+  {
+   "id": "music-tracks",
+   "name": "Music Tracks",
+   "tier": "free",
+   "kind": "music",
+   "blurb": "Five soundtracks to play under your sessions.",
+   "desc": "Five original tracks for your sessions: Pulse & Piano 1 and 2, Brass Command, and the humming pieces Mmm… and Mmmm…. They go to Library › Audio, where you can play them, use one as your soundtrack, or add a binaural beat.",
+   "bytes": 22384686,
+   "files": [
+    "packs/music-tracks.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "tracks": 5
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/music-tracks-cover.webp",
+   "previews": [],
+   "kindLabel": "Music",
+   "slot": 13
+  },
+  {
+   "id": "chakra-drones",
+   "name": "Chakra Drones",
+   "tier": "free",
+   "blurb": "Seven chakra drones, one for each centre.",
+   "bytes": 13448447,
+   "files": [
+    "packs/chakra-drones.part1.zip",
+    "packs/chakra-drones.part2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 0,
+    "sounds": 7
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_A2_loop.mp3",
+    "assets/audio/drones/drone_B2_loop.mp3",
+    "assets/audio/drones/drone_C2_loop.mp3",
+    "assets/audio/drones/drone_D2_loop.mp3",
+    "assets/audio/drones/drone_E2_loop.mp3",
+    "assets/audio/drones/drone_F2_loop.mp3",
+    "assets/audio/drones/drone_G2_loop.mp3"
+   ],
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "kind": "sound",
+   "cover": "store/chakra-drones-cover.webp",
+   "previews": [],
+   "kindLabel": "Sounds",
+   "slot": 2
+  },
+  {
+   "id": "bija-full",
+   "name": "Bija Mantra Library",
+   "tier": "free",
+   "blurb": "161 Bija mantra recordings.",
+   "bytes": 18622868,
+   "files": [
+    "packs/bija-full.part1.zip",
+    "packs/bija-full.part2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 0,
+    "sounds": 161
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/sanskrit/ch1_01_Lang_dry.mp3",
+    "assets/audio/sanskrit/ch1_01_Lang_wet.mp3",
+    "assets/audio/sanskrit/ch1_02_Vang.mp3",
+    "assets/audio/sanskrit/ch1_02_Vang_dry.mp3",
+    "assets/audio/sanskrit/ch1_02_Vang_wet.mp3",
+    "assets/audio/sanskrit/ch1_03_Shang.mp3",
+    "assets/audio/sanskrit/ch1_03_Shang_dry.mp3",
+    "assets/audio/sanskrit/ch1_03_Shang_wet.mp3",
+    "assets/audio/sanskrit/ch1_04_Kshang.mp3",
+    "assets/audio/sanskrit/ch1_04_Kshang_dry.mp3",
+    "assets/audio/sanskrit/ch1_04_Kshang_wet.mp3",
+    "assets/audio/sanskrit/ch1_05_Sang.mp3",
+    "assets/audio/sanskrit/ch1_05_Sang_dry.mp3",
+    "assets/audio/sanskrit/ch1_05_Sang_wet.mp3",
+    "assets/audio/sanskrit/ch2_01_Vang_dry.mp3",
+    "assets/audio/sanskrit/ch2_01_Vang_wet.mp3",
+    "assets/audio/sanskrit/ch2_02_Bang.mp3",
+    "assets/audio/sanskrit/ch2_02_Bang_dry.mp3",
+    "assets/audio/sanskrit/ch2_02_Bang_wet.mp3",
+    "assets/audio/sanskrit/ch2_03_Bhang.mp3",
+    "assets/audio/sanskrit/ch2_03_Bhang_dry.mp3",
+    "assets/audio/sanskrit/ch2_03_Bhang_wet.mp3",
+    "assets/audio/sanskrit/ch2_04_Mang.mp3",
+    "assets/audio/sanskrit/ch2_04_Mang_dry.mp3",
+    "assets/audio/sanskrit/ch2_04_Mang_wet.mp3",
+    "assets/audio/sanskrit/ch2_05_Yang.mp3",
+    "assets/audio/sanskrit/ch2_05_Yang_dry.mp3",
+    "assets/audio/sanskrit/ch2_05_Yang_wet.mp3",
+    "assets/audio/sanskrit/ch2_06_Rang.mp3",
+    "assets/audio/sanskrit/ch2_06_Rang_dry.mp3",
+    "assets/audio/sanskrit/ch2_06_Rang_wet.mp3",
+    "assets/audio/sanskrit/ch2_07_Lang.mp3",
+    "assets/audio/sanskrit/ch2_07_Lang_dry.mp3",
+    "assets/audio/sanskrit/ch2_07_Lang_wet.mp3",
+    "assets/audio/sanskrit/ch3_01_Rang_dry.mp3",
+    "assets/audio/sanskrit/ch3_01_Rang_wet.mp3",
+    "assets/audio/sanskrit/ch3_02_Dang.mp3",
+    "assets/audio/sanskrit/ch3_02_Dang_dry.mp3",
+    "assets/audio/sanskrit/ch3_02_Dang_wet.mp3",
+    "assets/audio/sanskrit/ch3_03_Dhang.mp3",
+    "assets/audio/sanskrit/ch3_03_Dhang_dry.mp3",
+    "assets/audio/sanskrit/ch3_03_Dhang_wet.mp3",
+    "assets/audio/sanskrit/ch3_04_Rlang.mp3",
+    "assets/audio/sanskrit/ch3_04_Rlang_dry.mp3",
+    "assets/audio/sanskrit/ch3_04_Rlang_wet.mp3",
+    "assets/audio/sanskrit/ch3_05_Tang.mp3",
+    "assets/audio/sanskrit/ch3_05_Tang_dry.mp3",
+    "assets/audio/sanskrit/ch3_05_Tang_wet.mp3",
+    "assets/audio/sanskrit/ch3_06_Thang.mp3",
+    "assets/audio/sanskrit/ch3_06_Thang_dry.mp3",
+    "assets/audio/sanskrit/ch3_06_Thang_wet.mp3",
+    "assets/audio/sanskrit/ch3_07_Dang2.mp3",
+    "assets/audio/sanskrit/ch3_07_Dang2_dry.mp3",
+    "assets/audio/sanskrit/ch3_07_Dang2_wet.mp3",
+    "assets/audio/sanskrit/ch3_08_Dhang2.mp3",
+    "assets/audio/sanskrit/ch3_08_Dhang2_dry.mp3",
+    "assets/audio/sanskrit/ch3_08_Dhang2_wet.mp3",
+    "assets/audio/sanskrit/ch3_09_Nang.mp3",
+    "assets/audio/sanskrit/ch3_09_Nang_dry.mp3",
+    "assets/audio/sanskrit/ch3_09_Nang_wet.mp3",
+    "assets/audio/sanskrit/ch3_10_Pang.mp3",
+    "assets/audio/sanskrit/ch3_10_Pang_dry.mp3",
+    "assets/audio/sanskrit/ch3_10_Pang_wet.mp3",
+    "assets/audio/sanskrit/ch3_11_Phang.mp3",
+    "assets/audio/sanskrit/ch3_11_Phang_dry.mp3",
+    "assets/audio/sanskrit/ch3_11_Phang_wet.mp3",
+    "assets/audio/sanskrit/ch4_01_Yang_dry.mp3",
+    "assets/audio/sanskrit/ch4_01_Yang_wet.mp3",
+    "assets/audio/sanskrit/ch4_02_Kang.mp3",
+    "assets/audio/sanskrit/ch4_02_Kang_dry.mp3",
+    "assets/audio/sanskrit/ch4_02_Kang_wet.mp3",
+    "assets/audio/sanskrit/ch4_03_Khang.mp3",
+    "assets/audio/sanskrit/ch4_03_Khang_dry.mp3",
+    "assets/audio/sanskrit/ch4_03_Khang_wet.mp3",
+    "assets/audio/sanskrit/ch4_04_Gang.mp3",
+    "assets/audio/sanskrit/ch4_04_Gang_dry.mp3",
+    "assets/audio/sanskrit/ch4_04_Gang_wet.mp3",
+    "assets/audio/sanskrit/ch4_05_Ghang.mp3",
+    "assets/audio/sanskrit/ch4_05_Ghang_dry.mp3",
+    "assets/audio/sanskrit/ch4_05_Ghang_wet.mp3",
+    "assets/audio/sanskrit/ch4_06_Yong.mp3",
+    "assets/audio/sanskrit/ch4_06_Yong_dry.mp3",
+    "assets/audio/sanskrit/ch4_06_Yong_wet.mp3",
+    "assets/audio/sanskrit/ch4_07_Cang.mp3",
+    "assets/audio/sanskrit/ch4_07_Cang_dry.mp3",
+    "assets/audio/sanskrit/ch4_07_Cang_wet.mp3",
+    "assets/audio/sanskrit/ch4_08_Chang.mp3",
+    "assets/audio/sanskrit/ch4_08_Chang_dry.mp3",
+    "assets/audio/sanskrit/ch4_08_Chang_wet.mp3",
+    "assets/audio/sanskrit/ch4_09_Jang.mp3",
+    "assets/audio/sanskrit/ch4_09_Jang_dry.mp3",
+    "assets/audio/sanskrit/ch4_09_Jang_wet.mp3",
+    "assets/audio/sanskrit/ch4_10_Jhang.mp3",
+    "assets/audio/sanskrit/ch4_10_Jhang_dry.mp3",
+    "assets/audio/sanskrit/ch4_10_Jhang_wet.mp3",
+    "assets/audio/sanskrit/ch4_11_Uang.mp3",
+    "assets/audio/sanskrit/ch4_11_Uang_dry.mp3",
+    "assets/audio/sanskrit/ch4_11_Uang_wet.mp3",
+    "assets/audio/sanskrit/ch4_12_Tang2.mp3",
+    "assets/audio/sanskrit/ch4_12_Tang2_dry.mp3",
+    "assets/audio/sanskrit/ch4_12_Tang2_wet.mp3",
+    "assets/audio/sanskrit/ch4_13_Thang2.mp3",
+    "assets/audio/sanskrit/ch4_13_Thang2_dry.mp3",
+    "assets/audio/sanskrit/ch4_13_Thang2_wet.mp3",
+    "assets/audio/sanskrit/ch5_01_Hang_dry.mp3",
+    "assets/audio/sanskrit/ch5_01_Hang_wet.mp3",
+    "assets/audio/sanskrit/ch5_02_Ang.mp3",
+    "assets/audio/sanskrit/ch5_02_Ang_dry.mp3",
+    "assets/audio/sanskrit/ch5_02_Ang_wet.mp3",
+    "assets/audio/sanskrit/ch5_03_Aang.mp3",
+    "assets/audio/sanskrit/ch5_03_Aang_dry.mp3",
+    "assets/audio/sanskrit/ch5_03_Aang_wet.mp3",
+    "assets/audio/sanskrit/ch5_04_Ing.mp3",
+    "assets/audio/sanskrit/ch5_04_Ing_dry.mp3",
+    "assets/audio/sanskrit/ch5_04_Ing_wet.mp3",
+    "assets/audio/sanskrit/ch5_05_Iing.mp3",
+    "assets/audio/sanskrit/ch5_05_Iing_dry.mp3",
+    "assets/audio/sanskrit/ch5_05_Iing_wet.mp3",
+    "assets/audio/sanskrit/ch5_06_Ung.mp3",
+    "assets/audio/sanskrit/ch5_06_Ung_dry.mp3",
+    "assets/audio/sanskrit/ch5_06_Ung_wet.mp3",
+    "assets/audio/sanskrit/ch5_07_Uung.mp3",
+    "assets/audio/sanskrit/ch5_07_Uung_dry.mp3",
+    "assets/audio/sanskrit/ch5_07_Uung_wet.mp3",
+    "assets/audio/sanskrit/ch5_08_Ring.mp3",
+    "assets/audio/sanskrit/ch5_08_Ring_dry.mp3",
+    "assets/audio/sanskrit/ch5_08_Ring_wet.mp3",
+    "assets/audio/sanskrit/ch5_09_Riing.mp3",
+    "assets/audio/sanskrit/ch5_09_Riing_dry.mp3",
+    "assets/audio/sanskrit/ch5_09_Riing_wet.mp3",
+    "assets/audio/sanskrit/ch5_10_Lring.mp3",
+    "assets/audio/sanskrit/ch5_10_Lring_dry.mp3",
+    "assets/audio/sanskrit/ch5_10_Lring_wet.mp3",
+    "assets/audio/sanskrit/ch5_11_Lriing.mp3",
+    "assets/audio/sanskrit/ch5_11_Lriing_dry.mp3",
+    "assets/audio/sanskrit/ch5_11_Lriing_wet.mp3",
+    "assets/audio/sanskrit/ch5_12_Eng.mp3",
+    "assets/audio/sanskrit/ch5_12_Eng_dry.mp3",
+    "assets/audio/sanskrit/ch5_12_Eng_wet.mp3",
+    "assets/audio/sanskrit/ch5_13_Aing.mp3",
+    "assets/audio/sanskrit/ch5_13_Aing_dry.mp3",
+    "assets/audio/sanskrit/ch5_13_Aing_wet.mp3",
+    "assets/audio/sanskrit/ch5_14_Ong.mp3",
+    "assets/audio/sanskrit/ch5_14_Ong_dry.mp3",
+    "assets/audio/sanskrit/ch5_14_Ong_wet.mp3",
+    "assets/audio/sanskrit/ch5_15_Aung.mp3",
+    "assets/audio/sanskrit/ch5_15_Aung_dry.mp3",
+    "assets/audio/sanskrit/ch5_15_Aung_wet.mp3",
+    "assets/audio/sanskrit/ch5_16_Ang_Anusvara.mp3",
+    "assets/audio/sanskrit/ch5_16_Ang_Anusvara_dry.mp3",
+    "assets/audio/sanskrit/ch5_16_Ang_Anusvara_wet.mp3",
+    "assets/audio/sanskrit/ch5_17_Ahang.mp3",
+    "assets/audio/sanskrit/ch5_17_Ahang_dry.mp3",
+    "assets/audio/sanskrit/ch5_17_Ahang_wet.mp3",
+    "assets/audio/sanskrit/ch6_01_Aum_dry.mp3",
+    "assets/audio/sanskrit/ch6_01_Aum_wet.mp3",
+    "assets/audio/sanskrit/ch6_02_Hang.mp3",
+    "assets/audio/sanskrit/ch6_02_Hang_dry.mp3",
+    "assets/audio/sanskrit/ch6_02_Hang_wet.mp3",
+    "assets/audio/sanskrit/ch6_03_Kshang_dry.mp3",
+    "assets/audio/sanskrit/ch6_03_Kshang_wet.mp3"
+   ],
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "kind": "sound",
+   "cover": "store/bija-full-cover.webp",
+   "previews": [],
+   "kindLabel": "Sounds",
+   "slot": 5
+  }
+ ]
+}
