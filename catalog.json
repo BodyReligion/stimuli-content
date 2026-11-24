@@ -1,68 +1,239 @@
 {
- "contentVersion": 2,
+ "contentVersion": 3,
  "packs": [
   {
-   "id": "chakras-symbols",
-   "name": "Chakras & Symbols",
+   "id": "chakras",
+   "name": "Chakras",
    "tier": "free",
    "kind": "album",
-   "blurb": "Chakra symbols in colour and white, with Om, Flower of Life and the Wireframe Head.",
+   "kindLabel": "Images",
+   "collection": "Chakras & Symbols",
+   "blurb": "From Chakras & Symbols",
    "desc": "The seven chakra symbols in their colours and in white, plus three classic STiMUL-i images: Om, the Flower of Life and the Wireframe Head. A starting set for chakra, meditation and energy sessions.",
-   "bytes": 1072379,
+   "bytes": 543216,
    "files": [
-    "packs/chakras-symbols.zip"
+    "items/chakras.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 17
+    "images": 7
    },
    "albums": [
-    "Chakras",
+    "Chakras"
+   ],
+   "audio": [],
+   "cover": "store/item-chakras.webp",
+   "previews": [
+    "store/item-chakras-1.webp",
+    "store/item-chakras-2.webp",
+    "store/item-chakras-3.webp",
+    "store/item-chakras-4.webp"
+   ],
+   "slot": 0
+  },
+  {
+   "id": "chakras-white",
+   "name": "Chakras White",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Chakras & Symbols",
+   "blurb": "From Chakras & Symbols",
+   "desc": "The seven chakra symbols in their colours and in white, plus three classic STiMUL-i images: Om, the Flower of Life and the Wireframe Head. A starting set for chakra, meditation and energy sessions.",
+   "bytes": 295007,
+   "files": [
+    "items/chakras-white.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 7
+   },
+   "albums": [
     "Chakras White"
    ],
    "audio": [],
-   "cover": "store/chakras-symbols-cover.webp",
+   "cover": "store/item-chakras-white.webp",
    "previews": [
-    "store/chakras-symbols-1.webp",
-    "store/chakras-symbols-2.webp",
-    "store/chakras-symbols-3.webp",
-    "store/chakras-symbols-4.webp"
+    "store/item-chakras-white-1.webp",
+    "store/item-chakras-white-2.webp",
+    "store/item-chakras-white-3.webp",
+    "store/item-chakras-white-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 16
+   "slot": 1
   },
   {
-   "id": "statements",
-   "name": "Statements",
+   "id": "wireframe-head",
+   "name": "Wireframe Head",
    "tier": "free",
-   "kind": "text",
-   "blurb": "Ready-made affirmation sets: I AM, Love, Wealth and more.",
-   "desc": "Four ready-to-use sets of statements to flash, sequence or trigger: EXAMPLE (abundance, feeling, power and self-love), LOVE IS, WEALTH and WHO AM I (I AM statements). Use them as they are, or as a starting point for your own words.",
-   "bytes": 1959,
+   "kind": "image",
+   "kindLabel": "Images",
+   "collection": "Chakras & Symbols",
+   "blurb": "Single image · Chakras & Symbols",
+   "desc": "The seven chakra symbols in their colours and in white, plus three classic STiMUL-i images: Om, the Flower of Life and the Wireframe Head. A starting set for chakra, meditation and energy sessions.",
+   "bytes": 118847,
    "files": [
-    "packs/statements.zip"
+    "items/wireframe-head.zip"
    ],
    "version": 1,
    "counts": {
-    "texts": 4
+    "images": 1
    },
    "albums": [],
    "audio": [],
-   "cover": "store/statements-cover.webp",
+   "cover": "store/item-wireframe-head.webp",
    "previews": [],
+   "slot": 2
+  },
+  {
+   "id": "flower-of-life",
+   "name": "Flower of Life",
+   "tier": "free",
+   "kind": "image",
+   "kindLabel": "Images",
+   "collection": "Chakras & Symbols",
+   "blurb": "Single image · Chakras & Symbols",
+   "desc": "The seven chakra symbols in their colours and in white, plus three classic STiMUL-i images: Om, the Flower of Life and the Wireframe Head. A starting set for chakra, meditation and energy sessions.",
+   "bytes": 89049,
+   "files": [
+    "items/flower-of-life.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-flower-of-life.webp",
+   "previews": [],
+   "slot": 3
+  },
+  {
+   "id": "om",
+   "name": "Om",
+   "tier": "free",
+   "kind": "image",
+   "kindLabel": "Images",
+   "collection": "Chakras & Symbols",
+   "blurb": "Single image · Chakras & Symbols",
+   "desc": "The seven chakra symbols in their colours and in white, plus three classic STiMUL-i images: Om, the Flower of Life and the Wireframe Head. A starting set for chakra, meditation and energy sessions.",
+   "bytes": 27045,
+   "files": [
+    "items/om.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-om.webp",
+   "previews": [],
+   "slot": 4
+  },
+  {
+   "id": "statements-example",
+   "name": "EXAMPLE",
+   "tier": "free",
+   "kind": "text",
    "kindLabel": "Statements",
-   "slot": 17
+   "collection": "Statements",
+   "blurb": "I HAVE EVERYTHING I NEED I HAVE EVERYTHING I WANT I HAVE IT ALL…",
+   "desc": "Four ready-to-use sets of statements to flash, sequence or trigger: EXAMPLE (abundance, feeling, power and self-love), LOVE IS, WEALTH and WHO AM I (I AM statements). Use them as they are, or as a starting point for your own words.",
+   "bytes": 761,
+   "files": [
+    "items/statements-example.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "texts": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-statements-example.webp",
+   "previews": [],
+   "slot": 5
+  },
+  {
+   "id": "statements-love-is",
+   "name": "LOVE IS",
+   "tier": "free",
+   "kind": "text",
+   "kindLabel": "Statements",
+   "collection": "Statements",
+   "blurb": "LOVE IS LOVE IS ENERGY LOVE IS ABUNDANT…",
+   "desc": "Four ready-to-use sets of statements to flash, sequence or trigger: EXAMPLE (abundance, feeling, power and self-love), LOVE IS, WEALTH and WHO AM I (I AM statements). Use them as they are, or as a starting point for your own words.",
+   "bytes": 561,
+   "files": [
+    "items/statements-love-is.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "texts": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-statements-love-is.webp",
+   "previews": [],
+   "slot": 6
+  },
+  {
+   "id": "statements-wealth",
+   "name": "WEALTH",
+   "tier": "free",
+   "kind": "text",
+   "kindLabel": "Statements",
+   "collection": "Statements",
+   "blurb": "I AM RICH I AM WEALTHY I LOVE HAVING MONEY…",
+   "desc": "Four ready-to-use sets of statements to flash, sequence or trigger: EXAMPLE (abundance, feeling, power and self-love), LOVE IS, WEALTH and WHO AM I (I AM statements). Use them as they are, or as a starting point for your own words.",
+   "bytes": 659,
+   "files": [
+    "items/statements-wealth.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "texts": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-statements-wealth.webp",
+   "previews": [],
+   "slot": 7
+  },
+  {
+   "id": "statements-who-am-i",
+   "name": "WHO AM I",
+   "tier": "free",
+   "kind": "text",
+   "kindLabel": "Statements",
+   "collection": "Statements",
+   "blurb": "I AM I AM ATTRACTIVE I AM CONFIDENT…",
+   "desc": "Four ready-to-use sets of statements to flash, sequence or trigger: EXAMPLE (abundance, feeling, power and self-love), LOVE IS, WEALTH and WHO AM I (I AM statements). Use them as they are, or as a starting point for your own words.",
+   "bytes": 640,
+   "files": [
+    "items/statements-who-am-i.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "texts": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-statements-who-am-i.webp",
+   "previews": [],
+   "slot": 8
   },
   {
    "id": "love",
    "name": "Love",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Love",
    "blurb": "Warm photographs of love, connection and togetherness.",
    "desc": "Photographs of love in many forms: hands joined, hearts, couples and friends against sunsets and the sea. Made for the LOVE IS statements and any session on love, connection and gratitude.",
    "bytes": 3617421,
    "files": [
-    "packs/love.zip"
+    "items/love.zip"
    ],
    "version": 1,
    "counts": {
@@ -72,61 +243,235 @@
     "Love"
    ],
    "audio": [],
-   "cover": "store/love-cover.webp",
+   "cover": "store/item-love.webp",
    "previews": [
-    "store/love-1.webp",
-    "store/love-2.webp",
-    "store/love-3.webp",
-    "store/love-4.webp"
+    "store/item-love-1.webp",
+    "store/item-love-2.webp",
+    "store/item-love-3.webp",
+    "store/item-love-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 18
+   "slot": 9
   },
   {
-   "id": "sanskrit-symbols",
-   "name": "Sanskrit Symbols",
+   "id": "sanskrit-root-muladhara",
+   "name": "Sanskrit · Root (Mūlādhāra)",
    "tier": "free",
    "kind": "album",
-   "blurb": "The Sanskrit letters of each chakra, and the six Bīja seed syllables.",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
    "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
-   "bytes": 246051,
+   "bytes": 21517,
    "files": [
-    "packs/sanskrit-symbols.zip"
+    "items/sanskrit-root-muladhara.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 62
+    "images": 5
    },
    "albums": [
-    "Sanskrit · Root (Mūlādhāra)",
-    "Sanskrit · Sacral (Svādhiṣṭhāna)",
-    "Sanskrit · Solar Plexus (Maṇipūra)",
-    "Sanskrit · Heart (Anāhata)",
-    "Sanskrit · Throat (Viśuddha)",
-    "Sanskrit · Third Eye (Ājñā)",
+    "Sanskrit · Root (Mūlādhāra)"
+   ],
+   "audio": [],
+   "cover": "store/item-sanskrit-root-muladhara.webp",
+   "previews": [
+    "store/item-sanskrit-root-muladhara-1.webp",
+    "store/item-sanskrit-root-muladhara-2.webp",
+    "store/item-sanskrit-root-muladhara-3.webp",
+    "store/item-sanskrit-root-muladhara-4.webp"
+   ],
+   "slot": 10
+  },
+  {
+   "id": "sanskrit-sacral-svadhis-hana",
+   "name": "Sanskrit · Sacral (Svādhiṣṭhāna)",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 29462,
+   "files": [
+    "items/sanskrit-sacral-svadhis-hana.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 7
+   },
+   "albums": [
+    "Sanskrit · Sacral (Svādhiṣṭhāna)"
+   ],
+   "audio": [],
+   "cover": "store/item-sanskrit-sacral-svadhis-hana.webp",
+   "previews": [
+    "store/item-sanskrit-sacral-svadhis-hana-1.webp",
+    "store/item-sanskrit-sacral-svadhis-hana-2.webp",
+    "store/item-sanskrit-sacral-svadhis-hana-3.webp",
+    "store/item-sanskrit-sacral-svadhis-hana-4.webp"
+   ],
+   "slot": 11
+  },
+  {
+   "id": "sanskrit-solar-plexus-manipura",
+   "name": "Sanskrit · Solar Plexus (Maṇipūra)",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 43042,
+   "files": [
+    "items/sanskrit-solar-plexus-manipura.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 11
+   },
+   "albums": [
+    "Sanskrit · Solar Plexus (Maṇipūra)"
+   ],
+   "audio": [],
+   "cover": "store/item-sanskrit-solar-plexus-manipura.webp",
+   "previews": [
+    "store/item-sanskrit-solar-plexus-manipura-1.webp",
+    "store/item-sanskrit-solar-plexus-manipura-2.webp",
+    "store/item-sanskrit-solar-plexus-manipura-3.webp",
+    "store/item-sanskrit-solar-plexus-manipura-4.webp"
+   ],
+   "slot": 12
+  },
+  {
+   "id": "sanskrit-heart-anahata",
+   "name": "Sanskrit · Heart (Anāhata)",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 54264,
+   "files": [
+    "items/sanskrit-heart-anahata.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 13
+   },
+   "albums": [
+    "Sanskrit · Heart (Anāhata)"
+   ],
+   "audio": [],
+   "cover": "store/item-sanskrit-heart-anahata.webp",
+   "previews": [
+    "store/item-sanskrit-heart-anahata-1.webp",
+    "store/item-sanskrit-heart-anahata-2.webp",
+    "store/item-sanskrit-heart-anahata-3.webp",
+    "store/item-sanskrit-heart-anahata-4.webp"
+   ],
+   "slot": 13
+  },
+  {
+   "id": "sanskrit-throat-visuddha",
+   "name": "Sanskrit · Throat (Viśuddha)",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 80124,
+   "files": [
+    "items/sanskrit-throat-visuddha.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 17
+   },
+   "albums": [
+    "Sanskrit · Throat (Viśuddha)"
+   ],
+   "audio": [],
+   "cover": "store/item-sanskrit-throat-visuddha.webp",
+   "previews": [
+    "store/item-sanskrit-throat-visuddha-1.webp",
+    "store/item-sanskrit-throat-visuddha-2.webp",
+    "store/item-sanskrit-throat-visuddha-3.webp",
+    "store/item-sanskrit-throat-visuddha-4.webp"
+   ],
+   "slot": 14
+  },
+  {
+   "id": "sanskrit-third-eye-ajna",
+   "name": "Sanskrit · Third Eye (Ājñā)",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 18008,
+   "files": [
+    "items/sanskrit-third-eye-ajna.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 3
+   },
+   "albums": [
+    "Sanskrit · Third Eye (Ājñā)"
+   ],
+   "audio": [],
+   "cover": "store/item-sanskrit-third-eye-ajna.webp",
+   "previews": [
+    "store/item-sanskrit-third-eye-ajna-1.webp",
+    "store/item-sanskrit-third-eye-ajna-2.webp"
+   ],
+   "slot": 15
+  },
+  {
+   "id": "sanskrit-bija-mantras",
+   "name": "Sanskrit · Bīja mantras",
+   "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sanskrit Symbols",
+   "blurb": "From Sanskrit Symbols",
+   "desc": "One album for each chakra, with its seed syllable first and then the Sanskrit letters of its petals, plus an album of the six Bīja mantras (LAM, VAM, RAM, YAM, HAM, OM). They pair with the Bīja mantra sounds in Studio › Soundtrack › Sanskrit.",
+   "bytes": 29573,
+   "files": [
+    "items/sanskrit-bija-mantras.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "images": 6
+   },
+   "albums": [
     "Sanskrit · Bīja mantras"
    ],
    "audio": [],
-   "cover": "store/sanskrit-symbols-cover.webp",
+   "cover": "store/item-sanskrit-bija-mantras.webp",
    "previews": [
-    "store/sanskrit-symbols-1.webp",
-    "store/sanskrit-symbols-2.webp",
-    "store/sanskrit-symbols-3.webp",
-    "store/sanskrit-symbols-4.webp"
+    "store/item-sanskrit-bija-mantras-1.webp",
+    "store/item-sanskrit-bija-mantras-2.webp",
+    "store/item-sanskrit-bija-mantras-3.webp",
+    "store/item-sanskrit-bija-mantras-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 19
+   "slot": 16
   },
   {
-   "id": "i-ching",
-   "name": "I Ching",
+   "id": "i-ching-64-hexagrams",
+   "name": "I Ching · 64 hexagrams",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "I Ching",
    "blurb": "All 64 hexagrams of the I Ching, each with its name.",
    "desc": "The 64 hexagrams of the I Ching in white on black, from 1 · The Creative to 64 · Before Completion. Each shows its name when used, so they work as single symbols or as a full sequence.",
-   "bytes": 45969,
+   "bytes": 45982,
    "files": [
-    "packs/i-ching.zip"
+    "items/i-ching-64-hexagrams.zip"
    ],
    "version": 1,
    "counts": {
@@ -136,26 +481,27 @@
     "I Ching · 64 hexagrams"
    ],
    "audio": [],
-   "cover": "store/i-ching-cover.webp",
+   "cover": "store/item-i-ching-64-hexagrams.webp",
    "previews": [
-    "store/i-ching-1.webp",
-    "store/i-ching-2.webp",
-    "store/i-ching-3.webp",
-    "store/i-ching-4.webp"
+    "store/item-i-ching-64-hexagrams-1.webp",
+    "store/item-i-ching-64-hexagrams-2.webp",
+    "store/item-i-ching-64-hexagrams-3.webp",
+    "store/item-i-ching-64-hexagrams-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 20
+   "slot": 17
   },
   {
-   "id": "bardon-alphabet",
-   "name": "Bardon Alphabet",
+   "id": "quabbalistic-alphabet-bardon",
+   "name": "Quabbalistic alphabet · Bardon",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Bardon Alphabet",
    "blurb": "The 27 letters of Franz Bardon’s Quabbalistic alphabet, in colour.",
    "desc": "The letters of the Quabbalistic alphabet from Franz Bardon’s Key to the True Quabbalah, each in its own colour and named with its element. For letter, colour and sound work.",
-   "bytes": 214538,
+   "bytes": 214551,
    "files": [
-    "packs/bardon-alphabet.zip"
+    "items/quabbalistic-alphabet-bardon.zip"
    ],
    "version": 1,
    "counts": {
@@ -165,26 +511,27 @@
     "Quabbalistic alphabet · Bardon"
    ],
    "audio": [],
-   "cover": "store/bardon-alphabet-cover.webp",
+   "cover": "store/item-quabbalistic-alphabet-bardon.webp",
    "previews": [
-    "store/bardon-alphabet-1.webp",
-    "store/bardon-alphabet-2.webp",
-    "store/bardon-alphabet-3.webp",
-    "store/bardon-alphabet-4.webp"
+    "store/item-quabbalistic-alphabet-bardon-1.webp",
+    "store/item-quabbalistic-alphabet-bardon-2.webp",
+    "store/item-quabbalistic-alphabet-bardon-3.webp",
+    "store/item-quabbalistic-alphabet-bardon-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 21
+   "slot": 18
   },
   {
-   "id": "i-am-universe",
+   "id": "i-am-the-universe",
    "name": "I AM the Universe",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "I AM the Universe",
    "blurb": "Cosmic scenes of a lone figure before galaxies, fire and light.",
    "desc": "Vast cosmic landscapes: a single figure stands before swirling galaxies, nebulae and beams of light. Made for I AM statements and manifestation sessions, where the words sit over a feeling of limitless space and possibility.",
-   "bytes": 6060178,
+   "bytes": 6060182,
    "files": [
-    "packs/i-am-universe.zip"
+    "items/i-am-the-universe.zip"
    ],
    "version": 1,
    "counts": {
@@ -194,26 +541,27 @@
     "I AM the Universe"
    ],
    "audio": [],
-   "cover": "store/i-am-universe-cover.webp",
+   "cover": "store/item-i-am-the-universe.webp",
    "previews": [
-    "store/i-am-universe-1.webp",
-    "store/i-am-universe-2.webp",
-    "store/i-am-universe-3.webp",
-    "store/i-am-universe-4.webp"
+    "store/item-i-am-the-universe-1.webp",
+    "store/item-i-am-the-universe-2.webp",
+    "store/item-i-am-the-universe-3.webp",
+    "store/item-i-am-the-universe-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 6
+   "slot": 19
   },
   {
    "id": "visionary-eyes",
    "name": "Visionary Eyes",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Visionary Eyes",
    "blurb": "Wide-open eyes woven with light, colour and flowing energy.",
    "desc": "Close-up faces with vivid blue eyes surrounded by streams of energy and colour. Strong focal points for gaze and attention work: the eyes hold the centre of the frame while words and flashes play over them.",
    "bytes": 2039092,
    "files": [
-    "packs/visionary-eyes.zip"
+    "items/visionary-eyes.zip"
    ],
    "version": 1,
    "counts": {
@@ -223,26 +571,27 @@
     "Visionary Eyes"
    ],
    "audio": [],
-   "cover": "store/visionary-eyes-cover.webp",
+   "cover": "store/item-visionary-eyes.webp",
    "previews": [
-    "store/visionary-eyes-1.webp",
-    "store/visionary-eyes-2.webp",
-    "store/visionary-eyes-3.webp",
-    "store/visionary-eyes-4.webp"
+    "store/item-visionary-eyes-1.webp",
+    "store/item-visionary-eyes-2.webp",
+    "store/item-visionary-eyes-3.webp",
+    "store/item-visionary-eyes-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 7
+   "slot": 20
   },
   {
    "id": "sacred-beauty",
    "name": "Sacred Beauty",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sacred Beauty",
    "blurb": "Divine feminine portraits crowned with feathers and jewels.",
    "desc": "Portraits of the divine feminine in radiant feathered headdresses, jewels and face paint. Warm, powerful imagery for sessions on self-worth, beauty, confidence and grace.",
    "bytes": 7919004,
    "files": [
-    "packs/sacred-beauty.zip"
+    "items/sacred-beauty.zip"
    ],
    "version": 1,
    "counts": {
@@ -252,26 +601,27 @@
     "Sacred Beauty"
    ],
    "audio": [],
-   "cover": "store/sacred-beauty-cover.webp",
+   "cover": "store/item-sacred-beauty.webp",
    "previews": [
-    "store/sacred-beauty-1.webp",
-    "store/sacred-beauty-2.webp",
-    "store/sacred-beauty-3.webp",
-    "store/sacred-beauty-4.webp"
+    "store/item-sacred-beauty-1.webp",
+    "store/item-sacred-beauty-2.webp",
+    "store/item-sacred-beauty-3.webp",
+    "store/item-sacred-beauty-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 8
+   "slot": 21
   },
   {
    "id": "sacred-warrior",
    "name": "Sacred Warrior",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sacred Warrior",
    "blurb": "Warrior portraits in feathered headdresses and war paint.",
    "desc": "Painted portraits of the sacred masculine: warriors in feathered headdresses, war paint and adornments. Grounded, steady imagery for strength, courage, discipline and focus.",
    "bytes": 3347757,
    "files": [
-    "packs/sacred-warrior.zip"
+    "items/sacred-warrior.zip"
    ],
    "version": 1,
    "counts": {
@@ -281,26 +631,27 @@
     "Sacred Warrior"
    ],
    "audio": [],
-   "cover": "store/sacred-warrior-cover.webp",
+   "cover": "store/item-sacred-warrior.webp",
    "previews": [
-    "store/sacred-warrior-1.webp",
-    "store/sacred-warrior-2.webp",
-    "store/sacred-warrior-3.webp",
-    "store/sacred-warrior-4.webp"
+    "store/item-sacred-warrior-1.webp",
+    "store/item-sacred-warrior-2.webp",
+    "store/item-sacred-warrior-3.webp",
+    "store/item-sacred-warrior-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 9
+   "slot": 22
   },
   {
    "id": "spirit-animals",
    "name": "Spirit Animals",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Spirit Animals",
    "blurb": "Bear, butterfly, eagle, lion and snake in mystical light.",
    "desc": "Five spirit animals in glowing, mystical light: the bear for strength, the butterfly for change, the eagle for vision, the lion for courage and the snake for renewal. Use one animal for a theme, or the whole album as a sequence.",
    "bytes": 3146064,
    "files": [
-    "packs/spirit-animals.zip"
+    "items/spirit-animals.zip"
    ],
    "version": 1,
    "counts": {
@@ -310,26 +661,27 @@
     "Spirit Animals"
    ],
    "audio": [],
-   "cover": "store/spirit-animals-cover.webp",
+   "cover": "store/item-spirit-animals.webp",
    "previews": [
-    "store/spirit-animals-1.webp",
-    "store/spirit-animals-2.webp",
-    "store/spirit-animals-3.webp",
-    "store/spirit-animals-4.webp"
+    "store/item-spirit-animals-1.webp",
+    "store/item-spirit-animals-2.webp",
+    "store/item-spirit-animals-3.webp",
+    "store/item-spirit-animals-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 10
+   "slot": 23
   },
   {
    "id": "buddha",
    "name": "Buddha",
    "tier": "free",
    "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Buddha",
    "blurb": "Serene Buddha statues, calm and centred.",
    "desc": "Carved Buddha statues with closed eyes and a still, peaceful expression, on black. A calm centre for meditation, breathing and stillness sessions. Several are on a see-through background, so they sit cleanly over other layers.",
    "bytes": 552039,
    "files": [
-    "packs/buddha.zip"
+    "items/buddha.zip"
    ],
    "version": 1,
    "counts": {
@@ -339,284 +691,625 @@
     "Buddha"
    ],
    "audio": [],
-   "cover": "store/buddha-cover.webp",
+   "cover": "store/item-buddha.webp",
    "previews": [
-    "store/buddha-1.webp",
-    "store/buddha-2.webp",
-    "store/buddha-3.webp",
-    "store/buddha-4.webp"
+    "store/item-buddha-1.webp",
+    "store/item-buddha-2.webp",
+    "store/item-buddha-3.webp",
+    "store/item-buddha-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 11
+   "slot": 24
   },
   {
-   "id": "geometry-gold",
-   "name": "Sacred Geometry Gold",
+   "id": "geometrics-gold",
+   "name": "Geometrics Gold",
    "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Sacred Geometry Gold",
    "blurb": "71 gold sacred geometry frames.",
-   "bytes": 6474835,
+   "desc": "Gold line drawings of sacred geometry: Flower of Life, Metatron’s Cube, Sri Yantra, mandalas and more, on black. Clean shapes that layer well over images and video.",
+   "bytes": 6474837,
    "files": [
-    "packs/geometry-gold.zip"
+    "items/geometrics-gold.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 71,
-    "sounds": 0
+    "images": 71
    },
    "albums": [
     "Geometrics Gold"
    ],
    "audio": [],
-   "desc": "Gold line drawings of sacred geometry: Flower of Life, Metatron’s Cube, Sri Yantra, mandalas and more, on black. Clean shapes that layer well over images and video.",
-   "kind": "album",
-   "cover": "store/geometry-gold-cover.webp",
+   "cover": "store/item-geometrics-gold.webp",
    "previews": [
-    "store/geometry-gold-1.webp",
-    "store/geometry-gold-2.webp",
-    "store/geometry-gold-3.webp",
-    "store/geometry-gold-4.webp"
+    "store/item-geometrics-gold-1.webp",
+    "store/item-geometrics-gold-2.webp",
+    "store/item-geometrics-gold-3.webp",
+    "store/item-geometrics-gold-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 0
+   "slot": 25
   },
   {
-   "id": "geometry-white",
+   "id": "geometrics-white",
    "name": "Geometrics White",
    "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Geometrics White",
    "blurb": "72 white sacred geometry frames.",
-   "bytes": 3251903,
+   "desc": "The sacred geometry set in white line: Flower of Life, Metatron’s Cube, Sri Yantra, mandalas and more, on black. Crisp over darker visuals.",
+   "bytes": 3251905,
    "files": [
-    "packs/geometry-white.zip"
+    "items/geometrics-white.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 72,
-    "sounds": 0
+    "images": 72
    },
    "albums": [
     "Geometrics White"
    ],
    "audio": [],
-   "desc": "The sacred geometry set in white line: Flower of Life, Metatron’s Cube, Sri Yantra, mandalas and more, on black. Crisp over darker visuals.",
-   "kind": "album",
-   "cover": "store/geometry-white-cover.webp",
+   "cover": "store/item-geometrics-white.webp",
    "previews": [
-    "store/geometry-white-1.webp",
-    "store/geometry-white-2.webp",
-    "store/geometry-white-3.webp",
-    "store/geometry-white-4.webp"
+    "store/item-geometrics-white-1.webp",
+    "store/item-geometrics-white-2.webp",
+    "store/item-geometrics-white-3.webp",
+    "store/item-geometrics-white-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 4
+   "slot": 26
   },
   {
    "id": "cymatics-gold",
    "name": "Cymatics Gold",
    "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Cymatics Gold",
    "blurb": "48 gold cymatic patterns.",
+   "desc": "Cymatics: the patterns sound makes in water and sand, drawn in gold. Rich, symmetrical shapes that pair naturally with tones, binaural beats and music.",
    "bytes": 6305987,
    "files": [
-    "packs/cymatics-gold.zip"
+    "items/cymatics-gold.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 48,
-    "sounds": 0
+    "images": 48
    },
    "albums": [
     "Cymatics Gold"
    ],
    "audio": [],
-   "desc": "Cymatics: the patterns sound makes in water and sand, drawn in gold. Rich, symmetrical shapes that pair naturally with tones, binaural beats and music.",
-   "kind": "album",
-   "cover": "store/cymatics-gold-cover.webp",
+   "cover": "store/item-cymatics-gold.webp",
    "previews": [
-    "store/cymatics-gold-1.webp",
-    "store/cymatics-gold-2.webp",
-    "store/cymatics-gold-3.webp",
-    "store/cymatics-gold-4.webp"
+    "store/item-cymatics-gold-1.webp",
+    "store/item-cymatics-gold-2.webp",
+    "store/item-cymatics-gold-3.webp",
+    "store/item-cymatics-gold-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 3
+   "slot": 27
   },
   {
    "id": "cymatics-white",
    "name": "Cymatics White",
    "tier": "free",
+   "kind": "album",
+   "kindLabel": "Images",
+   "collection": "Cymatics White",
    "blurb": "48 white cymatic patterns.",
+   "desc": "The cymatics set in white: the patterns sound makes in water and sand. Fine, symmetrical shapes for sound-led sessions.",
    "bytes": 3594061,
    "files": [
-    "packs/cymatics-white.zip"
+    "items/cymatics-white.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 48,
-    "sounds": 0
+    "images": 48
    },
    "albums": [
     "Cymatics White"
    ],
    "audio": [],
-   "desc": "The cymatics set in white: the patterns sound makes in water and sand. Fine, symmetrical shapes for sound-led sessions.",
-   "kind": "album",
-   "cover": "store/cymatics-white-cover.webp",
+   "cover": "store/item-cymatics-white.webp",
    "previews": [
-    "store/cymatics-white-1.webp",
-    "store/cymatics-white-2.webp",
-    "store/cymatics-white-3.webp",
-    "store/cymatics-white-4.webp"
+    "store/item-cymatics-white-1.webp",
+    "store/item-cymatics-white-2.webp",
+    "store/item-cymatics-white-3.webp",
+    "store/item-cymatics-white-4.webp"
    ],
-   "kindLabel": "Images",
-   "slot": 1
+   "slot": 28
   },
   {
-   "id": "nature-journeys",
-   "name": "Nature Journeys",
+   "id": "misty-forest",
+   "name": "Misty Forest",
    "tier": "free",
    "kind": "video",
-   "blurb": "Misty forest, a flight through the trees, and sunrise above the clouds.",
+   "kindLabel": "Videos",
+   "collection": "Nature Journeys",
+   "blurb": "Video loop · Nature Journeys",
    "desc": "Three calm nature films in full HD: sunlight through a misty pine forest, a slow glide between the trees of a bright green wood, and a flight over the clouds at sunrise. Gentle, grounding backgrounds for relaxation, visualisation and nature-themed statements.",
-   "bytes": 14866773,
+   "bytes": 6107512,
    "files": [
-    "packs/nature-journeys.zip"
+    "items/misty-forest.zip"
    ],
    "version": 1,
    "counts": {
-    "videos": 3
+    "videos": 1
    },
    "albums": [],
    "audio": [],
-   "cover": "store/nature-journeys-cover.webp",
-   "previews": [
-    "store/nature-journeys-1.webp",
-    "store/nature-journeys-2.webp",
-    "store/nature-journeys-3.webp",
-    "store/nature-journeys-4.webp"
-   ],
-   "kindLabel": "Videos",
-   "slot": 14
+   "cover": "store/item-misty-forest.webp",
+   "previews": [],
+   "slot": 29
   },
   {
-   "id": "light-tunnels",
-   "name": "Light Tunnels",
+   "id": "through-the-forest",
+   "name": "Through the Forest",
    "tier": "free",
    "kind": "video",
-   "blurb": "Glowing tunnels of light that pull you forward.",
+   "kindLabel": "Videos",
+   "collection": "Nature Journeys",
+   "blurb": "Video loop · Nature Journeys",
+   "desc": "Three calm nature films in full HD: sunlight through a misty pine forest, a slow glide between the trees of a bright green wood, and a flight over the clouds at sunrise. Gentle, grounding backgrounds for relaxation, visualisation and nature-themed statements.",
+   "bytes": 7121543,
+   "files": [
+    "items/through-the-forest.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-through-the-forest.webp",
+   "previews": [],
+   "slot": 30
+  },
+  {
+   "id": "above-the-clouds",
+   "name": "Above the Clouds",
+   "tier": "free",
+   "kind": "video",
+   "kindLabel": "Videos",
+   "collection": "Nature Journeys",
+   "blurb": "Video loop · Nature Journeys",
+   "desc": "Three calm nature films in full HD: sunlight through a misty pine forest, a slow glide between the trees of a bright green wood, and a flight over the clouds at sunrise. Gentle, grounding backgrounds for relaxation, visualisation and nature-themed statements.",
+   "bytes": 1638151,
+   "files": [
+    "items/above-the-clouds.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-above-the-clouds.webp",
+   "previews": [],
+   "slot": 31
+  },
+  {
+   "id": "golden-corridor",
+   "name": "Golden Corridor",
+   "tier": "free",
+   "kind": "video",
+   "kindLabel": "Videos",
+   "collection": "Light Tunnels",
+   "blurb": "Video loop · Light Tunnels",
    "desc": "Three looping journeys through light: a golden glowing corridor, a dark tunnel streaked with neon, and a shimmering tunnel of coloured triangles. Strong forward motion for focus, energy and deep-dive sessions, and striking under words and geometry.",
-   "bytes": 16112347,
+   "bytes": 7906705,
    "files": [
-    "packs/light-tunnels.zip"
+    "items/golden-corridor.zip"
    ],
    "version": 1,
    "counts": {
-    "videos": 3
+    "videos": 1
    },
    "albums": [],
    "audio": [],
-   "cover": "store/light-tunnels-cover.webp",
-   "previews": [
-    "store/light-tunnels-1.webp",
-    "store/light-tunnels-2.webp",
-    "store/light-tunnels-3.webp",
-    "store/light-tunnels-4.webp"
-   ],
-   "kindLabel": "Videos",
-   "slot": 15
+   "cover": "store/item-golden-corridor.webp",
+   "previews": [],
+   "slot": 32
   },
   {
-   "id": "hypnotic-tunnels",
-   "name": "Hypnotic Tunnels",
+   "id": "neon-tunnel",
+   "name": "Neon Tunnel",
    "tier": "free",
    "kind": "video",
-   "blurb": "Black and white spiral and tunnel loops.",
-   "desc": "Two seamless black and white video loops: a turning spiral and a tunnel of rings drawing the eye inward. Classic focus and induction visuals that work well behind words and under other layers.",
-   "bytes": 1057801,
+   "kindLabel": "Videos",
+   "collection": "Light Tunnels",
+   "blurb": "Video loop · Light Tunnels",
+   "desc": "Three looping journeys through light: a golden glowing corridor, a dark tunnel streaked with neon, and a shimmering tunnel of coloured triangles. Strong forward motion for focus, energy and deep-dive sessions, and striking under words and geometry.",
+   "bytes": 4012540,
    "files": [
-    "packs/hypnotic-tunnels.zip"
+    "items/neon-tunnel.zip"
    ],
    "version": 1,
    "counts": {
-    "videos": 2
+    "videos": 1
    },
    "albums": [],
    "audio": [],
-   "cover": "store/hypnotic-tunnels-cover.webp",
-   "previews": [
-    "store/hypnotic-tunnels-1.webp",
-    "store/hypnotic-tunnels-2.webp",
-    "store/hypnotic-tunnels-3.webp"
-   ],
-   "kindLabel": "Videos",
-   "slot": 12
+   "cover": "store/item-neon-tunnel.webp",
+   "previews": [],
+   "slot": 33
   },
   {
-   "id": "music-tracks",
-   "name": "Music Tracks",
+   "id": "crystal-tunnel",
+   "name": "Crystal Tunnel",
+   "tier": "free",
+   "kind": "video",
+   "kindLabel": "Videos",
+   "collection": "Light Tunnels",
+   "blurb": "Video loop · Light Tunnels",
+   "desc": "Three looping journeys through light: a golden glowing corridor, a dark tunnel streaked with neon, and a shimmering tunnel of coloured triangles. Strong forward motion for focus, energy and deep-dive sessions, and striking under words and geometry.",
+   "bytes": 4193531,
+   "files": [
+    "items/crystal-tunnel.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-crystal-tunnel.webp",
+   "previews": [],
+   "slot": 34
+  },
+  {
+   "id": "hypnotic-spiral",
+   "name": "Hypnotic Spiral",
+   "tier": "free",
+   "kind": "video",
+   "kindLabel": "Videos",
+   "collection": "Hypnotic Tunnels",
+   "blurb": "Video loop · Hypnotic Tunnels",
+   "desc": "Two seamless black and white video loops: a turning spiral and a tunnel of rings drawing the eye inward. Classic focus and induction visuals that work well behind words and under other layers.",
+   "bytes": 226964,
+   "files": [
+    "items/hypnotic-spiral.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-hypnotic-spiral.webp",
+   "previews": [],
+   "slot": 35
+  },
+  {
+   "id": "hypnotic-tunnel",
+   "name": "Hypnotic Tunnel",
+   "tier": "free",
+   "kind": "video",
+   "kindLabel": "Videos",
+   "collection": "Hypnotic Tunnels",
+   "blurb": "Video loop · Hypnotic Tunnels",
+   "desc": "Two seamless black and white video loops: a turning spiral and a tunnel of rings drawing the eye inward. Classic focus and induction visuals that work well behind words and under other layers.",
+   "bytes": 831052,
+   "files": [
+    "items/hypnotic-tunnel.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "videos": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-hypnotic-tunnel.webp",
+   "previews": [],
+   "slot": 36
+  },
+  {
+   "id": "track-pulse-piano-1",
+   "name": "Pulse & Piano 1",
    "tier": "free",
    "kind": "music",
-   "blurb": "Five soundtracks to play under your sessions.",
+   "kindLabel": "Music",
+   "collection": "Music Tracks",
+   "blurb": "Music track · Music Tracks",
    "desc": "Five original tracks for your sessions: Pulse & Piano 1 and 2, Brass Command, and the humming pieces Mmm… and Mmmm…. They go to Library › Audio, where you can play them, use one as your soundtrack, or add a binaural beat.",
-   "bytes": 22384686,
+   "bytes": 5659677,
    "files": [
-    "packs/music-tracks.zip"
+    "items/track-pulse-piano-1.zip"
    ],
    "version": 1,
    "counts": {
-    "tracks": 5
+    "tracks": 1
    },
    "albums": [],
    "audio": [],
-   "cover": "store/music-tracks-cover.webp",
+   "cover": "store/item-track-pulse-piano-1.webp",
    "previews": [],
-   "kindLabel": "Music",
-   "slot": 13
+   "slot": 37
   },
   {
-   "id": "chakra-drones",
-   "name": "Chakra Drones",
+   "id": "track-pulse-piano-2",
+   "name": "Pulse & Piano 2",
    "tier": "free",
-   "blurb": "Seven chakra drones, one for each centre.",
-   "bytes": 13448447,
+   "kind": "music",
+   "kindLabel": "Music",
+   "collection": "Music Tracks",
+   "blurb": "Music track · Music Tracks",
+   "desc": "Five original tracks for your sessions: Pulse & Piano 1 and 2, Brass Command, and the humming pieces Mmm… and Mmmm…. They go to Library › Audio, where you can play them, use one as your soundtrack, or add a binaural beat.",
+   "bytes": 5915873,
    "files": [
-    "packs/chakra-drones.part1.zip",
-    "packs/chakra-drones.part2.zip"
+    "items/track-pulse-piano-2.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 0,
-    "sounds": 7
+    "tracks": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-track-pulse-piano-2.webp",
+   "previews": [],
+   "slot": 38
+  },
+  {
+   "id": "track-brass-command",
+   "name": "Brass Command",
+   "tier": "free",
+   "kind": "music",
+   "kindLabel": "Music",
+   "collection": "Music Tracks",
+   "blurb": "Music track · Music Tracks",
+   "desc": "Five original tracks for your sessions: Pulse & Piano 1 and 2, Brass Command, and the humming pieces Mmm… and Mmmm…. They go to Library › Audio, where you can play them, use one as your soundtrack, or add a binaural beat.",
+   "bytes": 4068543,
+   "files": [
+    "items/track-brass-command.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "tracks": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-track-brass-command.webp",
+   "previews": [],
+   "slot": 39
+  },
+  {
+   "id": "track-mmm",
+   "name": "Mmm…",
+   "tier": "free",
+   "kind": "music",
+   "kindLabel": "Music",
+   "collection": "Music Tracks",
+   "blurb": "Music track · Music Tracks",
+   "desc": "Five original tracks for your sessions: Pulse & Piano 1 and 2, Brass Command, and the humming pieces Mmm… and Mmmm…. They go to Library › Audio, where you can play them, use one as your soundtrack, or add a binaural beat.",
+   "bytes": 3360279,
+   "files": [
+    "items/track-mmm.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "tracks": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-track-mmm.webp",
+   "previews": [],
+   "slot": 40
+  },
+  {
+   "id": "track-mmmm",
+   "name": "Mmmm…",
+   "tier": "free",
+   "kind": "music",
+   "kindLabel": "Music",
+   "collection": "Music Tracks",
+   "blurb": "Music track · Music Tracks",
+   "desc": "Five original tracks for your sessions: Pulse & Piano 1 and 2, Brass Command, and the humming pieces Mmm… and Mmmm…. They go to Library › Audio, where you can play them, use one as your soundtrack, or add a binaural beat.",
+   "bytes": 3381182,
+   "files": [
+    "items/track-mmmm.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "tracks": 1
+   },
+   "albums": [],
+   "audio": [],
+   "cover": "store/item-track-mmmm.webp",
+   "previews": [],
+   "slot": 41
+  },
+  {
+   "id": "drone-a2",
+   "name": "Drone A2",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in A2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
+   "files": [
+    "items/drone-a2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 1
    },
    "albums": [],
    "audio": [
-    "assets/audio/drones/drone_A2_loop.mp3",
-    "assets/audio/drones/drone_B2_loop.mp3",
-    "assets/audio/drones/drone_C2_loop.mp3",
-    "assets/audio/drones/drone_D2_loop.mp3",
-    "assets/audio/drones/drone_E2_loop.mp3",
-    "assets/audio/drones/drone_F2_loop.mp3",
-    "assets/audio/drones/drone_G2_loop.mp3"
+    "assets/audio/drones/drone_A2_loop.mp3"
    ],
-   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
-   "kind": "sound",
-   "cover": "store/chakra-drones-cover.webp",
+   "cover": "store/item-drone-a2.webp",
    "previews": [],
-   "kindLabel": "Sounds",
-   "slot": 2
+   "slot": 42
   },
   {
-   "id": "bija-full",
-   "name": "Bija Mantra Library",
+   "id": "drone-b2",
+   "name": "Drone B2",
    "tier": "free",
-   "blurb": "161 Bija mantra recordings.",
-   "bytes": 18622868,
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in B2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
    "files": [
-    "packs/bija-full.part1.zip",
-    "packs/bija-full.part2.zip"
+    "items/drone-b2.zip"
    ],
    "version": 1,
    "counts": {
-    "images": 0,
-    "sounds": 161
+    "sounds": 1
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_B2_loop.mp3"
+   ],
+   "cover": "store/item-drone-b2.webp",
+   "previews": [],
+   "slot": 43
+  },
+  {
+   "id": "drone-c2",
+   "name": "Drone C2",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in C2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
+   "files": [
+    "items/drone-c2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 1
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_C2_loop.mp3"
+   ],
+   "cover": "store/item-drone-c2.webp",
+   "previews": [],
+   "slot": 44
+  },
+  {
+   "id": "drone-d2",
+   "name": "Drone D2",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in D2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
+   "files": [
+    "items/drone-d2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 1
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_D2_loop.mp3"
+   ],
+   "cover": "store/item-drone-d2.webp",
+   "previews": [],
+   "slot": 45
+  },
+  {
+   "id": "drone-e2",
+   "name": "Drone E2",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in E2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
+   "files": [
+    "items/drone-e2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 1
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_E2_loop.mp3"
+   ],
+   "cover": "store/item-drone-e2.webp",
+   "previews": [],
+   "slot": 46
+  },
+  {
+   "id": "drone-f2",
+   "name": "Drone F2",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in F2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
+   "files": [
+    "items/drone-f2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 1
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_F2_loop.mp3"
+   ],
+   "cover": "store/item-drone-f2.webp",
+   "previews": [],
+   "slot": 47
+  },
+  {
+   "id": "drone-g2",
+   "name": "Drone G2",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Chakra Drones",
+   "blurb": "Chakra drone in G2 · Chakra Drones",
+   "desc": "Seven deep, steady drones, one tuned for each chakra from root to crown. They play live under your visuals in Studio › Soundtrack › Sanskrit, alone or with the Bija mantras.",
+   "bytes": 1921370,
+   "files": [
+    "items/drone-g2.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 1
+   },
+   "albums": [],
+   "audio": [
+    "assets/audio/drones/drone_G2_loop.mp3"
+   ],
+   "cover": "store/item-drone-g2.webp",
+   "previews": [],
+   "slot": 48
+  },
+  {
+   "id": "bija-root",
+   "name": "Bija mantras · Root",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Bija Mantra Library",
+   "blurb": "Root chakra · Bija Mantra Library",
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "bytes": 1337755,
+   "files": [
+    "items/bija-root.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 14
    },
    "albums": [],
    "audio": [
@@ -633,7 +1326,31 @@
     "assets/audio/sanskrit/ch1_04_Kshang_wet.mp3",
     "assets/audio/sanskrit/ch1_05_Sang.mp3",
     "assets/audio/sanskrit/ch1_05_Sang_dry.mp3",
-    "assets/audio/sanskrit/ch1_05_Sang_wet.mp3",
+    "assets/audio/sanskrit/ch1_05_Sang_wet.mp3"
+   ],
+   "cover": "store/item-bija-root.webp",
+   "previews": [],
+   "slot": 49
+  },
+  {
+   "id": "bija-sacral",
+   "name": "Bija mantras · Sacral",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Bija Mantra Library",
+   "blurb": "Sacral chakra · Bija Mantra Library",
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "bytes": 1941052,
+   "files": [
+    "items/bija-sacral.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 20
+   },
+   "albums": [],
+   "audio": [
     "assets/audio/sanskrit/ch2_01_Vang_dry.mp3",
     "assets/audio/sanskrit/ch2_01_Vang_wet.mp3",
     "assets/audio/sanskrit/ch2_02_Bang.mp3",
@@ -653,7 +1370,31 @@
     "assets/audio/sanskrit/ch2_06_Rang_wet.mp3",
     "assets/audio/sanskrit/ch2_07_Lang.mp3",
     "assets/audio/sanskrit/ch2_07_Lang_dry.mp3",
-    "assets/audio/sanskrit/ch2_07_Lang_wet.mp3",
+    "assets/audio/sanskrit/ch2_07_Lang_wet.mp3"
+   ],
+   "cover": "store/item-bija-sacral.webp",
+   "previews": [],
+   "slot": 50
+  },
+  {
+   "id": "bija-solar-plexus",
+   "name": "Bija mantras · Solar Plexus",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Bija Mantra Library",
+   "blurb": "Solar Plexus chakra · Bija Mantra Library",
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "bytes": 3243460,
+   "files": [
+    "items/bija-solar-plexus.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 32
+   },
+   "albums": [],
+   "audio": [
     "assets/audio/sanskrit/ch3_01_Rang_dry.mp3",
     "assets/audio/sanskrit/ch3_01_Rang_wet.mp3",
     "assets/audio/sanskrit/ch3_02_Dang.mp3",
@@ -685,7 +1426,31 @@
     "assets/audio/sanskrit/ch3_10_Pang_wet.mp3",
     "assets/audio/sanskrit/ch3_11_Phang.mp3",
     "assets/audio/sanskrit/ch3_11_Phang_dry.mp3",
-    "assets/audio/sanskrit/ch3_11_Phang_wet.mp3",
+    "assets/audio/sanskrit/ch3_11_Phang_wet.mp3"
+   ],
+   "cover": "store/item-bija-solar-plexus.webp",
+   "previews": [],
+   "slot": 51
+  },
+  {
+   "id": "bija-heart",
+   "name": "Bija mantras · Heart",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Bija Mantra Library",
+   "blurb": "Heart chakra · Bija Mantra Library",
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "bytes": 3883550,
+   "files": [
+    "items/bija-heart.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 38
+   },
+   "albums": [],
+   "audio": [
     "assets/audio/sanskrit/ch4_01_Yang_dry.mp3",
     "assets/audio/sanskrit/ch4_01_Yang_wet.mp3",
     "assets/audio/sanskrit/ch4_02_Kang.mp3",
@@ -723,7 +1488,31 @@
     "assets/audio/sanskrit/ch4_12_Tang2_wet.mp3",
     "assets/audio/sanskrit/ch4_13_Thang2.mp3",
     "assets/audio/sanskrit/ch4_13_Thang2_dry.mp3",
-    "assets/audio/sanskrit/ch4_13_Thang2_wet.mp3",
+    "assets/audio/sanskrit/ch4_13_Thang2_wet.mp3"
+   ],
+   "cover": "store/item-bija-heart.webp",
+   "previews": [],
+   "slot": 52
+  },
+  {
+   "id": "bija-throat",
+   "name": "Bija mantras · Throat",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Bija Mantra Library",
+   "blurb": "Throat chakra · Bija Mantra Library",
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "bytes": 6938406,
+   "files": [
+    "items/bija-throat.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 50
+   },
+   "albums": [],
+   "audio": [
     "assets/audio/sanskrit/ch5_01_Hang_dry.mp3",
     "assets/audio/sanskrit/ch5_01_Hang_wet.mp3",
     "assets/audio/sanskrit/ch5_02_Ang.mp3",
@@ -773,7 +1562,31 @@
     "assets/audio/sanskrit/ch5_16_Ang_Anusvara_wet.mp3",
     "assets/audio/sanskrit/ch5_17_Ahang.mp3",
     "assets/audio/sanskrit/ch5_17_Ahang_dry.mp3",
-    "assets/audio/sanskrit/ch5_17_Ahang_wet.mp3",
+    "assets/audio/sanskrit/ch5_17_Ahang_wet.mp3"
+   ],
+   "cover": "store/item-bija-throat.webp",
+   "previews": [],
+   "slot": 53
+  },
+  {
+   "id": "bija-third-eye",
+   "name": "Bija mantras · Third Eye",
+   "tier": "free",
+   "kind": "sound",
+   "kindLabel": "Sounds",
+   "collection": "Bija Mantra Library",
+   "blurb": "Third Eye chakra · Bija Mantra Library",
+   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
+   "bytes": 1279621,
+   "files": [
+    "items/bija-third-eye.zip"
+   ],
+   "version": 1,
+   "counts": {
+    "sounds": 7
+   },
+   "albums": [],
+   "audio": [
     "assets/audio/sanskrit/ch6_01_Aum_dry.mp3",
     "assets/audio/sanskrit/ch6_01_Aum_wet.mp3",
     "assets/audio/sanskrit/ch6_02_Hang.mp3",
@@ -782,12 +1595,10 @@
     "assets/audio/sanskrit/ch6_03_Kshang_dry.mp3",
     "assets/audio/sanskrit/ch6_03_Kshang_wet.mp3"
    ],
-   "desc": "The full Bija mantra library: the seed sounds LAM, VAM, RAM, YAM, HAM, OM and their variations, recorded for each chakra. They play live in Studio › Soundtrack › Sanskrit.",
-   "kind": "sound",
-   "cover": "store/bija-full-cover.webp",
+   "cover": "store/item-bija-third-eye.webp",
    "previews": [],
-   "kindLabel": "Sounds",
-   "slot": 5
+   "slot": 54
   }
- ]
+ ],
+ "items": true
 }
