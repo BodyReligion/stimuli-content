@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STiMUL-i Store</title>
+<style>
+  :root { --bg:#07090c; --surface:#11151b; --line:#232a33; --text:#edf0f3; --muted:#8a939f; --accent:#4fe0ea; --ink:#04262a; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  header { padding:28px 16px 8px; max-width:1100px; margin:0 auto; }
+  h1 { margin:0 0 6px; font-weight:600; font-size:28px; letter-spacing:.01em; }
+  h1 i { color:var(--accent); font-style:normal; }
+  header p { margin:0; color:var(--muted); max-width:640px; }
+  .kinds { display:flex; flex-wrap:wrap; gap:6px; margin:18px 0 4px; }
+  .kinds button { background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:99px; padding:7px 14px; font:inherit; font-size:13.5px; cursor:pointer; }
+  .kinds button[aria-pressed="true"] { background:var(--accent); color:var(--ink); border-color:var(--accent); }
+  main { max-width:1100px; margin:0 auto; padding:12px 16px 40px; display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:16px; overflow:hidden; cursor:pointer; display:flex; flex-direction:column; }
+  .card:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .cover { position:relative; aspect-ratio:16/9; background:#000; }
+  .cover img { width:100%; height:100%; object-fit:cover; display:block; }
+  .tag { position:absolute; left:9px; top:9px; font-size:11.5px; font-weight:600; padding:3px 9px; border-radius:99px; background:rgba(0,0,0,.6); }
+  .body { padding:11px 13px 14px; }
+  .name { font-weight:650; font-size:16px; }
+  .blurb { opacity:.85; font-size:13.5px; margin:3px 0 5px; }
+  .meta { color:var(--muted); font-size:12px; }
+  dialog { background:var(--surface); color:var(--text); border:1px solid var(--line); border-radius:18px; padding:0; width:min(640px, calc(100vw - 32px)); max-height:calc(100vh - 32px); }
+  dialog::backdrop { background:rgba(0,0,0,.7); }
+  .dlg { padding:16px; }
+  .hero { width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:12px; display:block; background:#000; }
+  .kind { color:var(--accent); font-size:12.5px; font-weight:600; margin-top:12px; }
+  dialog h2 { margin:4px 0 8px; font-size:22px; font-weight:600; }
+  .prev { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin:10px 0; }
+  .prev img { width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:8px; display:block; background:#000; }
+  .close { margin-top:12px; width:100%; padding:11px; border-radius:12px; border:1px solid var(--line); background:transparent; color:var(--text); font:inherit; cursor:pointer; }
+  footer { text-align:center; color:var(--muted); font-size:12.5px; padding:0 16px 30px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>STiMUL<i>-i</i> Store</h1>
+  <p>Packs of images, videos, music and sounds for your sessions, free with a STiMUL-i subscription. Download them in the app: Studio › Library › Store.</p>
+  <div class="kinds" id="kinds"></div>
+</header>
+<main id="grid"></main>
+<footer>STiMUL-i · Body Religion Ltd</footer>
+<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
+<script>
+const KIND = { all: 'All', album: 'Images', video: 'Videos', music: 'Music', sound: 'Sounds' };
+const MB = b => (b / 1048576).toFixed(1) + ' MB';
+const meta = p => [p.counts.images && p.counts.images + ' images', p.counts.videos && p.counts.videos + ' videos', p.counts.tracks && p.counts.tracks + ' tracks', p.counts.sounds && p.counts.sounds + ' sounds'].filter(Boolean).join(' · ') + ' · ' + MB(p.bytes);
+const h = (t, a = {}, kids = []) => { const e = document.createElement(t); for (const k in a) { if (k === 'text') e.textContent = a[k]; else if (k.startsWith('on')) e.addEventListener(k.slice(2), a[k]); else e.setAttribute(k, a[k]); } [].concat(kids).forEach(c => c && e.append(c)); return e; };
+let packs = [], kind = 'all';
+function open(p) {
+  const d = document.getElementById('dlg'), b = document.getElementById('dlgBody');
+  b.replaceChildren(h('img', { class: 'hero', src: p.cover, alt: '' }), h('div', { class: 'kind', text: (p.kindLabel || 'Images') + ' · Free with your subscription' }),
+    h('h2', { text: p.name }), h('p', { text: p.desc || p.blurb }),
+    (p.previews || []).length ? h('div', { class: 'prev' }, p.previews.map(u => h('img', { src: u, alt: '', loading: 'lazy' }))) : null,
+    h('div', { class: 'meta', text: meta(p) }), h('button', { class: 'close', text: 'Close', onclick: () => d.close() }));
+  d.showModal();
+}
+function draw() {
+  const kinds = ['all', ...['album', 'video', 'music', 'sound'].filter(k => packs.some(p => p.kind === k))];
+  document.getElementById('kinds').replaceChildren(...kinds.map(k => h('button', { 'aria-pressed': String(k === kind), text: KIND[k], onclick: () => { kind = k; draw(); } })));
+  document.getElementById('grid').replaceChildren(...packs.filter(p => kind === 'all' || p.kind === kind).map(p =>
+    h('div', { class: 'card', tabindex: '0', role: 'button', 'aria-label': p.name, onclick: () => open(p), onkeydown: e => { if (e.key === 'Enter') open(p); } }, [
+      h('div', { class: 'cover' }, [h('img', { src: p.cover, alt: '', loading: 'lazy' }), h('span', { class: 'tag', text: p.kindLabel || 'Images' })]),
+      h('div', { class: 'body' }, [h('div', { class: 'name', text: p.name }), h('div', { class: 'blurb', text: p.blurb }), h('div', { class: 'meta', text: meta(p) })])])));
+}
+fetch('catalog.json', { cache: 'no-cache' }).then(r => r.json()).then(c => { packs = c.packs; draw(); });
+document.getElementById('dlg').addEventListener('click', e => { if (e.target.id === 'dlg') e.target.close(); });
+</script>
+</body>
+</html>
