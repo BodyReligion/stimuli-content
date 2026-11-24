@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex">
+<title>STiMUL-i video</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+  iframe { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; }
+  p { color: #8a8f98; font: 15px/1.4 system-ui, sans-serif; text-align: center; margin: 40vh 24px 0; }
+</style>
+</head>
+<body>
+<!--
+  Video player for the STiMUL-i app. YouTube only plays embedded videos on a page with a web address
+  (otherwise it shows "Error 153"), and an installed app has none, so the app shows this page, which shows the video.
+  Usage: /youtube.html?v=VIDEO_ID  (optional: &autoplay=1)
+-->
+<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+  var id = (q.get('v') || '').trim();
+  if (!/^[\w-]{11}$/.test(id)) { document.body.innerHTML = '<p>Video not found.</p>'; return; }
+  var params = new URLSearchParams({
+    autoplay: q.get('autoplay') === '1' ? '1' : '0',
+    playsinline: '1', rel: '0', modestbranding: '1', enablejsapi: '1',
+    origin: location.origin
+  });
+  var f = document.createElement('iframe');
+  f.src = 'https://www.youtube-nocookie.com/embed/' + id + '?' + params.toString();
+  f.title = 'STiMUL-i video';
+  f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+  f.setAttribute('allowfullscreen', '');
+  f.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+  document.body.appendChild(f);
+})();
+</script>
+</body>
+</html>
