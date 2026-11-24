@@ -47,23 +47,23 @@
 <footer>STiMUL-i · Body Religion Ltd</footer>
 <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
 <script>
-const KIND = { all: 'All', album: 'Images', video: 'Videos', music: 'Music', sound: 'Sounds' };
+const KINDS = ['Images', 'Videos', 'Statements', 'Music', 'Sounds'];
 const MB = b => (b / 1048576).toFixed(1) + ' MB';
-const meta = p => [p.counts.images && p.counts.images + ' images', p.counts.videos && p.counts.videos + ' videos', p.counts.tracks && p.counts.tracks + ' tracks', p.counts.sounds && p.counts.sounds + ' sounds'].filter(Boolean).join(' · ') + ' · ' + MB(p.bytes);
+const meta = p => [p.counts.images > 1 && p.counts.images + ' pictures', p.counts.sounds > 1 && p.counts.sounds + ' sounds'].filter(Boolean).concat(MB(p.bytes)).join(' · ');
 const h = (t, a = {}, kids = []) => { const e = document.createElement(t); for (const k in a) { if (k === 'text') e.textContent = a[k]; else if (k.startsWith('on')) e.addEventListener(k.slice(2), a[k]); else e.setAttribute(k, a[k]); } [].concat(kids).forEach(c => c && e.append(c)); return e; };
 let packs = [], kind = 'all';
 function open(p) {
   const d = document.getElementById('dlg'), b = document.getElementById('dlgBody');
-  b.replaceChildren(h('img', { class: 'hero', src: p.cover, alt: '' }), h('div', { class: 'kind', text: (p.kindLabel || 'Images') + ' · Free with your subscription' }),
+  b.replaceChildren(h('img', { class: 'hero', src: p.cover, alt: '' }), h('div', { class: 'kind', text: (p.collection && p.collection !== p.name ? p.collection + ' · ' : '') + 'Free with your subscription' }),
     h('h2', { text: p.name }), h('p', { text: p.desc || p.blurb }),
     (p.previews || []).length ? h('div', { class: 'prev' }, p.previews.map(u => h('img', { src: u, alt: '', loading: 'lazy' }))) : null,
     h('div', { class: 'meta', text: meta(p) }), h('button', { class: 'close', text: 'Close', onclick: () => d.close() }));
   d.showModal();
 }
 function draw() {
-  const kinds = ['all', ...['album', 'video', 'music', 'sound'].filter(k => packs.some(p => p.kind === k))];
-  document.getElementById('kinds').replaceChildren(...kinds.map(k => h('button', { 'aria-pressed': String(k === kind), text: KIND[k], onclick: () => { kind = k; draw(); } })));
-  document.getElementById('grid').replaceChildren(...packs.filter(p => kind === 'all' || p.kind === kind).map(p =>
+  const kinds = ['all', ...KINDS.filter(k => packs.some(p => p.kindLabel === k))];
+  document.getElementById('kinds').replaceChildren(...kinds.map(k => h('button', { 'aria-pressed': String(k === kind), text: k === 'all' ? 'All' : k, onclick: () => { kind = k; draw(); } })));
+  document.getElementById('grid').replaceChildren(...packs.filter(p => kind === 'all' || p.kindLabel === kind).map(p =>
     h('div', { class: 'card', tabindex: '0', role: 'button', 'aria-label': p.name, onclick: () => open(p), onkeydown: e => { if (e.key === 'Enter') open(p); } }, [
       h('div', { class: 'cover' }, [h('img', { src: p.cover, alt: '', loading: 'lazy' }), h('span', { class: 'tag', text: p.kindLabel || 'Images' })]),
       h('div', { class: 'body' }, [h('div', { class: 'name', text: p.name }), h('div', { class: 'blurb', text: p.blurb }), h('div', { class: 'meta', text: meta(p) })])])));
