@@ -879,6 +879,23 @@ html.m, html.m body { overflow: visible !important; height: auto !important; pos
 .m-getrow .m-btn { text-decoration: none; flex: 1 1 200px; text-align: center; }
 .m-link-inline { color: var(--m-accent); }
 .m-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding: 28px 0 40px; color: var(--m-muted); font-size: 13px; border-top: 1px solid var(--m-line); margin-top: 28px; }
+/* full width: the page uses the whole browser, with more columns on wider screens */
+html.m .m-home .m-wrap { max-width: none; padding-left: max(16px, env(safe-area-inset-left, 0px), 4vw); padding-right: max(16px, env(safe-area-inset-right, 0px), 4vw); }
+html.m .m-home .m-hnav-wrap { margin-left: calc(-1 * max(16px, 4vw)); margin-right: calc(-1 * max(16px, 4vw)); padding-left: max(16px, 4vw); padding-right: max(16px, 4vw); }
+html.m .m-home .m-hnav { padding-left: 0; padding-right: 0; }
+@media (min-width: 800px) {
+  html.m .m-home .m-mechgrid { grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  html.m .m-home .m-resgrid { grid-template-columns: repeat(3, 1fr); gap: 20px 16px; }
+  html.m .m-home .m-hero-sec { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; align-items: center; }
+  html.m .m-home .m-hv-title { font-size: clamp(28px, 2.6vw, 44px); }
+  html.m .m-home .m-yt { grid-template-rows: none; grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); overflow: visible; margin: 0; padding: 0; }
+  html.m .m-home .m-lede { max-width: 75ch; }
+  html.m .m-home .m-legal { max-width: 110ch; }
+}
+@media (min-width: 1200px) {
+  html.m .m-home .m-mechgrid { grid-template-columns: repeat(6, 1fr); }
+  html.m .m-home .m-resgrid { grid-template-columns: repeat(4, 1fr); }
+}
 .m-foot a { color: var(--m-muted); }
 </style>
 </head>
